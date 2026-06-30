@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>aidak</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="masthead">
+            <img
+                src="./aidak_logo.png"
+                style="width: clamp(6rem, 30vw, 6rem)"
+            />
+        </header>
+
+        <nav class="nav-strip" aria-label="Primary navigation">
+            <a class="active" href="./index.html">Home</a>
+            <span></span>
+            <a href="blog/index.html">Blog</a>
+            <span></span>
+            <a href="#">Creations</a>
+            <span></span>
+            <a href="#">Vision</a>
+            <span></span>
+            <a class="important" href="#">WORK WITH ME</a>
+        </nav>
+
+        <main class="site-frame">
+            <section class="intro-panel">
+                <p class="eyebrow">ABOUT ME</p>
+
+                <p>
+                    I am a 17-year-old interface designer and visual artist from
+                    Spain, focused on creating timeless digital experiences
+                    through tactility and physicality.
+                </p>
+            </section>
+
+            <div class="gallery">
+                <div class="row">
+                    <div
+                        class="card"
+                        style="
+                            background-image: url(./works/music-centrist.jpeg);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        "
+                        id="music-centrist"
+                    ></div>
+                    <div
+                        class="card"
+                        style="
+                            background-image: url(./works/contacts-centrist.jpeg);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        "
+                        id="contacts-centrist"
+                    ></div>
+                    <div
+                        class="card wide"
+                        style="
+                            background-image: url(./works/nightvale.webp);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        "
+                        id="nightvale"
+                    ></div>
+                </div>
+
+                <div class="row">
+                    <div
+                        class="card"
+                        style="
+                            background-image: url(./works/ios27-music.webp);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center center;
+                        "
+                        id="ios27-music"
+                    ></div>
+                    <div class="card" id="music"></div>
+                    <div class="card" id="lock2"></div>
+                </div>
+            </div>
+
+            <section class="lower-band">
+                <article>
+                    <h2>Core Philosophy</h2>
+                    <ul>
+                        <li>
+                            Software should feel tangible, timeless, luxurious,
+                            and crafted with soul.
+                        </li>
+                        <li>
+                            When everything is ornate, nothing feels precious.
+                            Restraint is craft.
+                        </li>
+                        <li>
+                            Obsess over every detail, as little as it is.
+                            Perfection is built one pixel at a time.
+                        </li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h2>Available For</h2>
+                    <p>
+                        Full-time / part-time design job opportunities.
+                        Interface design, icon design, and visual systems.
+                    </p>
+                </article>
+                <article>
+                    <h2>Contact Me</h2>
+                    <p>
+                        <a href="mailto:paucurcio@icloud.com">Email</a> /
+
+                        <a href="https://x.com/aidaknx">Twitter</a> /
+                        <a href="https://discord.com/users/260068680782708737"
+                            >Discord</a
+                        >
+                        /
+                        <a
+                            href="https://signal.me/#eu/MzFliksNcEb-LkSyC0ShXHWAY0zv5J3bhdbWJHM0qI9KOTk0_AFE0a3yLE4Cvq45"
+                            >Signal</a
+                        >
+                    </p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer-strip">
+            <span id="copyright"
+                >&copy;
+                <script>
+                    document
+                        .getElementById("copyright")
+                        .appendChild(
+                            document.createTextNode(new Date().getFullYear()),
+                        );
+                </script>
+                Aidak. All rights reserved. Made in Spain
+            </span>
+        </footer>
+    </body>
+</html>
